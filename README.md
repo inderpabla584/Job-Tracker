@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Job Tracker
+
+A full-stack web application that helps users track and manage their job applications in one place.
+
+## Overview
+Job Tracker is designed to simplify the job search process by allowing users to organise applications, monitor progress, and store key information for each role.
+
+## Features
+- Add, edit, and delete job applications  
+- Track application status (Applied, Interview, Offer, Rejected)  
+- Store notes and important details for each job  
+- Clean and intuitive user interface  
+
+## Tech Stack
+- **Frontend:** Next.js, TypeScript  
+- **Backend / Database:** Supabase  
+- **Styling:** CSS / Tailwind (edit if needed)  
 
 ## Getting Started
 
-First, run the development server:
-
+### 1. Clone the repository
 ```bash
+git clone https://github.com/inderpabla584/Job-Tracker.git
+cd Job-Tracker
+2. Install dependencies
+npm install
+3. Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000
+ in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Project Motivation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project was built to address the difficulty of managing multiple job applications across different platforms, providing a centralised and structured solution.
 
-## Learn More
+Future Improvements
+User authentication and accounts
+Dashboard with analytics and insights
+Notifications and reminders
+Improved UI/UX
+Author
+Inder Pabla
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### One thing you should tweak
+- If you’re using Tailwind → keep it  
+- If not → remove it from Tech Stack  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+### Optional (but strong upgrade)
+If you deploy it (e.g. Vercel), add this at the top:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```markdown
+## Live Demo
+[View the app](https://your-link.vercel.app)
