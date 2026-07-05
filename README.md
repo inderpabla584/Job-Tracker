@@ -34,11 +34,3 @@ Project Motivation
 
 This project was built to address the difficulty of managing multiple job applications across different platforms, providing a centralised and structured solution.
 
-Future Improvements
-User authentication and accounts
-Dashboard with analytics and insights
-Notifications and reminders
-Improved UI/UX
-Author
-Inder Pabla
-
