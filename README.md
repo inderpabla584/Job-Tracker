@@ -42,17 +42,3 @@ Improved UI/UX
 Author
 Inder Pabla
 
----
-
-### One thing you should tweak
-- If you’re using Tailwind → keep it  
-- If not → remove it from Tech Stack  
-
----
-
-### Optional (but strong upgrade)
-If you deploy it (e.g. Vercel), add this at the top:
-
-```markdown
-## Live Demo
-[View the app](https://your-link.vercel.app)
